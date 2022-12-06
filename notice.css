@@ -1,0 +1,24 @@
+/* 메인내용 */
+section {
+    width: inherit;
+    height: 800px;
+    position: relative;
+    top: 100px;
+    color: #333;
+    /* border: 1px solid blue; */
+}
+section {
+    width: inherit;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #ccc;
+}
+::-webkit-scrollbar-thumb {
+    background: #333;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: white;
+}

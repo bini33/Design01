@@ -1,0 +1,56 @@
+/* 메인내용 */
+section {
+    /* width: inherit; */
+    height: 1050px;
+    position: relative;
+    top: 100px;
+    color: #333;
+    /* border: 1px solid blue; */
+}
+#about {
+    font-size: 30px;
+    font-weight: bolder;
+    width: 850px;
+    height: 50px;
+    /* border: 1px solid red; */
+    margin: 20px 0;
+}
+#contents p {
+    width: 440px;
+    position: absolute;
+    left: 0;
+    text-align: justify;
+    line-height: 150%;
+    /* border: 1px solid red; */
+    font-size: 14px;
+}
+#contents #img {
+    width: 420px;
+    height: 260px;
+    background: url(img/img04.jpg) no-repeat bottom right;
+    background-size: cover;
+    position: absolute;
+    right: 10px;
+}
+#faq {
+    font-size: 30px;
+    font-weight: bolder;
+    width: 850px;
+    height: 50px;
+    /* border: 1px solid red; */
+    margin: 20px 0;
+    position: absolute;
+    top: 340px;
+}
+#contents2 {
+    height: 430px;
+    column-count: 2;
+    column-gap: 20px;
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 450px;
+}
+#contents2 p {
+    font-size: 13px;
+    line-height: 150%;
+}
